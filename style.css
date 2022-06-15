@@ -1,3 +1,4 @@
+
 .infologo {
   width: 35px;
 }
@@ -12,11 +13,11 @@ section {
 }
 
 .footer-section {
-  background: #166a84;
+  background: #360101;
 }
 
 .footer-section-row {
-  background: #1d7590;
+  background: #400202;
   padding: 18px;
   margin-bottom: 50px;
 }
@@ -65,7 +66,7 @@ section {
 } */
 
 .footer-title-text {
-  background: #166a84;
+  background: #360101;
   z-index: 999;
   position: relative;
 }
@@ -326,7 +327,7 @@ section {
   height: 0;
   border: 80px solid rgba(232, 15, 15, 0);
   border-top: 0 solid;
-  border-bottom: 100px solid rgba(186, 9, 9, 0.846);
+  border-bottom: 100px solid rgba(169, 0, 0, 0.777);
   -webkit-border-radius: 20px 20px 0 0;
   border-radius: 20px 20px 0 0;
   font: normal 100% / normal Arial, Helvetica, sans-serif;
@@ -461,7 +462,7 @@ hr {
 }
 
 .background {
-  background-color: #000000;
+  background-color: #180808;
   color: white;
 }
 
@@ -510,12 +511,13 @@ hr {
 .subhead {
   color: rgb(255, 255, 255);
   text-align: center;
+  font-family: Snell Roundhand, cursive;
   font-size: 160%;
   margin-bottom: 10px;
 }
 
 .descriptitle {
-  margin-top: -40px;
+  margin-top: -60px;
   margin-bottom: 0px;
   color: rgb(255, 255, 255);
   font-family: "Times New Roman", Times, serif;
@@ -554,31 +556,40 @@ hr {
 }
 
 .inverted {
-  filter: invert(100%);
+  filter: invert(100%) hue-rotate(-330deg);
 }
 .blackify {
-  filter: invert(100%);
+  filter: invert(100%) hue-rotate(330deg);
 }
 
 .colorchange {
-  background-color: rgb(52, 91, 105);
+  background-color: rgba(108, 10, 10, 0.955);
+  border-color: rgb(152, 24, 10);
+  border-width: 200%;
   color: white;
 }
 
 .colorbuttonchange {
-  background-color: rgba(19, 230, 254, 0.832);
+  background-color: rgba(76, 4, 96, 0.236);
 }
 
 .logoblack {
-  background: linear-gradient(#000000, #17213e);
+  background: linear-gradient(#00000017, #840000);
   width: 100%;
   );
 }
 
+.goup {
+  margin-top: 15px;
+}
+
+.contacttextsmall{
+  color: black;
+}
+
 .bannerimage {
-  filter: saturate(500%) blur(2px) brightness(150%) hue-rotate(180deg);
-  opacity: 30%;
+  background: linear-gradient(#840000, #0000001d);
   width: 100%;
-  position:absolute;
-    z-index:-1;
+  height: 20px;
+  position: absolute;
 }
